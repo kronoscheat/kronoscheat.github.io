@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Kronos Client</title>
+    <meta name="description" content="Kronos Client ">
+            <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary-dark": "#0D0F19",
+              "primary-card": "#151720",
+              "priamry-card-blue": "#303FE1",
+              "primary-light": "#29142b",
+              "primary-blue": "#2A38C7",
+              "primary-blue-light": "#214AA3",
+            },
+          },
+        },
+      };
+    </script>
+      </head>
+  <body class="bg-primary-dark">
+                <header class="text-gray-400 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a class="flex title-font font-medium items-center mb-4 md:mb-0">
+          <span class="ml-3 text-xl text-white cursor-pointer">Kronos</span>
+        </a>
+        <nav
+          class="pl-12 md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+            <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://discord.gg/Tz6GCXmqm8" target="_blank">Download</a>
+            <a class="mr-6 md:mr-8 hover:text-white cursor-pointer" href="https://discord.gg/Tz6GCXmqm8" target="_blank">Community</a>
+                        
+                                    
+        </nav>
+        <a href="" target="_blank">
+          <button
+            class="hidden md:inline-flex items-center text-white bg-primary-blue border-0 py-[0.4rem] px-4 focus:outline-none hover:bg-gray-300 hover:text-primary-blue rounded font-medium mt-4 md:mt-0"
+          >
+            Purchase
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              class="mt-[0.08rem] w-4 h-4 ml-2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <div
+      class="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full"
+    >
+      <div class="max-w-xl mx-auto lg:max-w-screen-xl">
+        <div class="mb-16 lg:max-w-lg lg:mb-0">
+          <div class="max-w-xl mb-6">
+            <div>
+              <p
+                class="inline-block py-px mb-4 text-xs font-semibold tracking-wider text-white p-2 uppercase rounded-full bg-slate-500"
+              >
+                Brand new
+              </p>
+            </div>
+            <h2
+              class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl sm:leading-none"
+            >
+              The all in one games
+              <br class="hidden md:block" />
+              cheat
+              <span class="inline-block text-deep-purple-accent-400">
+                solution
+              </span>
+            </h2>
+            <p class="text-base text-slate-500 md:text-lg">
+              At Cobalt, we believe that the best way to learn is by playing. We
+              have a wide range of games that you can use our cheats on to get
+              the most out of them. Premium, affordable, frequent updates, and
+              an ever growing community of users.
+            </p>
+          </div>
+          <div class="flex items-center">
+            <a
+              class="inline-flex cursor-pointer bg-primary-blue items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:bg-white hover:text-primary-blue focus:shadow-outline focus:outline-none"
+              href="https://discord.gg/Tz6GCXmqm8"
+              target="_blank"
+            >
+              Download
+            </a>
+            <a href="https://discord.gg/Tz6GCXmqm8" target="_blank" class="inline-flex cursor-pointer bg-primary-card items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:bg-white hover:text-primary-blue focus:shadow-outline focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" width="27" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16" height="23" style="margin-right: 11px;">
+                          <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
+                        </svg>Discord</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center h-full lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end"
+      >
+        <img
+          src="dist/img/cheat.png"
+          class="object-cover object-top w-full h-64 max-w-xl overflow-scroll -mb-16 rounded-xl shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div
+      class="hidden md:flex ml-[20rem] mt-36 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-8 text-slate-300"
+    ></div>
+    <div
+      class="px-4 py-32 mt-42 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      id="header-content"
+    >
+      <div
+        class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+      >
+        <h2
+          class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-slate-300 sm:text-4xl md:mx-auto"
+        >
+          <span class="relative inline-block">
+            <span class="relative">Why</span>
+          </span>
+          you should choose cobalt
+        </h2>
+        <p class="text-base text-gray-500 md:text-lg">
+          Our aim is to provide the best gaming experience for everyone, our
+          cheats are designed to be user-friendly and easy but maintain the
+          highest level of quality.
+        </p>
+      </div>
+      <div class="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3 text-white">
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="text-primary-blue h-7 w-7"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
+              />
+              <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Welcoming community</h6>
+          <p class="text-sm pb-3">
+            We are active within the cobalt community and are constantly
+            striving to make the cheat more enjoyable for everyone. You have a
+            say on what features come next!
+          </p>
+        </div>
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="text-priamry-card-blue h-7 w-7"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
+              />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Support</h6>
+          <p class="text-sm">
+            We have a dedicated team within the community that is always ready
+            to help you with any questions you might have. Don't be afraid to
+            ask us!
+          </p>
+        </div>
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="text-priamry-card-blue h-7 w-7"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25L5.5 13zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28V4.487zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927V8.539z"
+              />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Fair Pricing</h6>
+          <p class="text-sm">
+            Our cheats have been priced to be fair. We have official sellers and
+            resellers that are able to offer you different payment methods.
+          </p>
+        </div>
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="text-priamry-card-blue h-7 w-7"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"
+              />
+              <path
+                d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+              />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Security</h6>
+          <p class="text-sm">
+            We pride ourselves on our security and are constantly working to
+            make sure that your accounts are safe from anti-cheats.
+          </p>
+        </div>
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              class="w-10 h-10 text-priamry-card-blue"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Reliability</h6>
+          <p class="text-sm">
+            We are always working to make sure that our cheats are reliable and
+            that they are always up to date.
+          </p>
+        </div>
+        <div
+          class="p-5 duration-300 transform bg-primary-card rounded-md shadow-sm hover:-translate-y-2"
+        >
+          <div
+            class="flex items-center justify-center w-12 h-12 mb-4 rounded-full"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="text-priamry-card-blue h-7 w-7"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"
+              />
+              <path
+                d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"
+              />
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">Modern Design</h6>
+          <p class="text-sm">
+            We are always working to make our cheats and website look modern and
+            easy to use.
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a
+          href="https://discord.gg/Tz6GCXmqm8"
+          target="_blank"
+          class="cursor-pointer inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-primary-blue hover:bg-primary-blue-light focus:shadow-outline focus:outline-none"
+        >
+          Join us now!
+        </a>
+      </div>
+    </div>
+    <div class="min-h-screen flex justify-center items-center">
+      <div>
+        <div class="text-center font-semibold">
+          <h1 class="text-4xl text-white">Choose your plan</h1>
+        </div>
+        <div class="flex-col md:flex-row flex">
+          <div
+            class="w-[20rem] mt-[6rem] md:mt-[3rem] ml-8 p-8 bg-primary-card text-center rounded-3xl pl-16 shadow-xl"
+          >
+            <div class="pr-6">
+              <h1 class="text-white font-semibold text-2xl">3 Day</h1>
+              <p class="pt-2 tracking-wide">
+                <span class="text-white align-top">£ </span>
+                <span class="text-3xl text-white font-semibold">3</span>
+                <span class="text-white font-medium">/ 3 Days</span>
+              </p>
+              <hr class="mt-4 border-1" />
+              <div>
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Aimbot/Aimlock</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">ESP - Players, Items</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">FOV Changer/FOV Circle</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Undetected</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Community scripts</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+
+                <a href="" target="_blank">
+                  <p
+                    class="w-full py-4 bg-blue-600 mt-8 rounded-xl cursor-pointer text-white"
+                  >
+                    <span class="font-medium">Buy Now </span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[20rem] mt-[6rem] md:mt-[3rem] ml-8 p-8 bg-primary-card text-center rounded-3xl pl-16 shadow-xl"
+          >
+            <div class="pr-6">
+              <h1 class="text-white font-semibold text-2xl">1 Month</h1>
+              <p class="pt-2 tracking-wide">
+                <span class="text-white align-top">£ </span>
+                <span class="text-3xl text-white font-semibold">10</span>
+                <span class="text-white font-medium">/ 1 Month</span>
+              </p>
+              <hr class="mt-4 border-1" />
+              <div>
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Aimbot/Aimlock</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">ESP - Players, Items</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">FOV Changer/FOV Circle</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Undetected</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+                <p class="font-semibold pt-3 text-white text-center">
+                  <span class="px-1">Community scripts</span>
+                </p>
+                <hr class="mt-4 border-1 border-white" />
+
+                <a href="" target="_blank">
+                  <p
+                    class="w-full py-4 bg-blue-600 mt-8 rounded-xl cursor-pointer text-white"
+                  >
+                    <span class="font-medium">Buy Now </span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-gray-600 body-font mt-8">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <span class="ml-3 text-xl text-slate-400">Kronos</span>
+        </a>
+        <p
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+        >
+          © 2022 Kronos. All rights reserved.
+        </p>
+        <span
+          class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <a
+            class="text-gray-500 cursor-pointer"
+            href="https://discord.gg/Tz6GCXmqm8"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="27"
+              height="27"
+              fill="currentColor"
+              class="bi bi-discord"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+              />
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
